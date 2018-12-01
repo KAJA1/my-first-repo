@@ -5,9 +5,13 @@ echo "Guess how many files are in the current directory:"
 
 function guess {
 if
- [[ $n -ne 3 ]]
+ [[ $n -lt 3 ]]
 then
-echo "Please try again:"
+echo "Guess is low.Please try again:"
+read n
+answer
+else
+echo "Guess is high.Please try again:"
 read n
 answer
 fi

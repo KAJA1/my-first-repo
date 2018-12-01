@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# File: makefile
-
-cat test1 | head -2 | tail -1 
-date
-wc -l test1
