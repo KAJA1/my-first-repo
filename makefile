@@ -2,5 +2,8 @@
 # File: makefile
 
 cat guessinggame.sh | head -2 | tail -1 
-date
-wc -l guessinggame.sh
+echo "Date:"
+ date
+echo "No of lines =
+ $(wc -l guessinggame.sh)"
+
